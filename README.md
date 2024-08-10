@@ -63,3 +63,6 @@ echo "Configuración completa. El servicio de minería está en ejecución y se 
 # Proporcionar feedback al usuario 
 echo "Configuración completa. El servicio de minería está en ejecución y se reiniciará en caso de fallo."
 E1
+
+# Proporcionar feedback al usuario 
+echo "Configuración completa. El servicio de minería está en ejecución y se reiniciará en caso de fallo."
