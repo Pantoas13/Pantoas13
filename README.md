@@ -48,6 +48,7 @@ def main():
 
 if __name__ == "__main__":
     main()cd \ruta\del\minero
-minerd -a scrypt -o stratum+tcp://ltc.poolbinance.com:3333 -u camilo13 -p 123456
+minerd -a scrypt -o stratum+tcp://ltc.poolbinance.com:3333 -u camilo13 
+
 
     
