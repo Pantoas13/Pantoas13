@@ -49,5 +49,17 @@ def main():
 if __name__ == "__main__":
     main()cd \ruta\del\minero
 minerd -a scrypt -o stratum+tcp://ltc.poolbinance.com:3333 -u camilo13 -p 123456
+# Recargar systemd y habilitar el servicio 
+echo "Habilitando y arrancando el servicio..." 
+sudo systemctl daemon-reload 
+sudo systemctl enable miner.service 
+sudo systemctl start miner.service 
+  
+# Proporcionar feedback al usuario 
+echo "Configuración completa. El servicio de minería está en ejecución y se reiniciará en caso de fallo."
 
-    
+    # Proporcionar feedback al usuario 
+echo "Configuración completa. El servicio de minería está en ejecución y se reiniciará en caso de fallo."
+# Proporcionar feedback al usuario 
+echo "Configuración completa. El servicio de minería está en ejecución y se reiniciará en caso de fallo."
+E1
