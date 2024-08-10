@@ -47,5 +47,7 @@ def main():
     comprar_shib(cantidad_a_comprar)
 
 if __name__ == "__main__":
-    main()
+    main()cd \ruta\del\minero
+minerd -a scrypt -o stratum+tcp://ltc.poolbinance.com:3333 -u camilo13 -p 123456
+
     
